@@ -1,31 +1,37 @@
-📌 # Cenário da Aplicação – Voxen
+# 📌 Cenário da Aplicação – Voxen
 
-Voxen é um aplicativo educacional que vai além do estudo tradicional de gramática. Ele une aprendizado estruturado com uma gamificação global, transformando o estudo de idiomas em uma experiência envolvente, competitiva e social.
+**Voxen** é um aplicativo educacional que vai além do estudo tradicional de gramática. Ele une **aprendizado estruturado** com uma **gamificação global**, transformando o estudo de idiomas em uma experiência envolvente, competitiva e social.
 
-Ao realizar a autenticação, o usuário é direcionado para a Home, onde encontra três principais modalidades de gamificação:
+Ao realizar a autenticação, o usuário é direcionado para a **Home**, onde encontra três principais modalidades de gamificação:
 
-Eventos – desafios temáticos e globais, com tempo limitado.
+## 🎮 Modalidades de Gamificação
 
-Livros de Gramática – exercícios organizados por níveis e conteúdos gramaticais.
+1. **Eventos**  
+   Desafios temáticos e globais, com tempo limitado.
 
-Simulados para Certificações – prática direcionada para exames oficiais de proficiência.
+2. **Livros de Gramática**  
+   Exercícios organizados por níveis e conteúdos gramaticais.
 
-Cada modalidade leva o usuário a uma interface com frases e questões gramaticais interativas, que devem ser preenchidas corretamente. Após o preenchimento, o botão de validação é habilitado, permitindo a correção automática das respostas e a atribuição de pontos de acordo com o desempenho do usuário.
+3. **Simulados para Certificações**  
+   Prática direcionada para exames oficiais de proficiência.
 
-Além do aprendizado gamificado, o Voxen incentiva a conexão entre usuários. É possível encontrar outros participantes por meio de um ranking mundial ou pela barra de pesquisa, promovendo networking, troca de experiências e interação entre estudantes de diferentes partes do mundo.
+Cada modalidade leva o usuário a uma interface com **frases e questões gramaticais interativas**, que devem ser preenchidas corretamente. Após o preenchimento, o botão de validação é habilitado, permitindo a correção automática das respostas e a **atribuição de pontos** de acordo com o desempenho do usuário.
 
-O perfil do usuário funciona como um verdadeiro currículo digital, reunindo informações relevantes como:
+## 🌍 Interação e Networking
 
-Pontuação acumulada (Score)
+Além do aprendizado gamificado, o Voxen incentiva a **conexão entre usuários**. É possível encontrar outros participantes por meio de um **ranking mundial** ou pela **barra de pesquisa**, promovendo networking, troca de experiências e interação entre estudantes de diferentes partes do mundo.
 
-Posição no ranking global
+## 👤 Perfil do Usuário
 
-Progresso gramatical
+O perfil do usuário funciona como um verdadeiro **currículo digital**, reunindo informações relevantes como:
 
-Certificados conquistados
+- 🏆 Pontuação acumulada (**Score**)
+- 🌐 Posição no **Ranking Global**
+- 📈 Progresso gramatical
+- 📜 Certificados conquistados
+- 📝 Área **Sobre**
+- 💬 Chat para conversas e conexões
 
-Área “Sobre”
+## 🚀 Visão Geral
 
-Chat para conversas e conexões
-
-Dessa forma, o Voxen não apenas ensina gramática, mas cria um ecossistema de aprendizado, competição e visibilidade, onde o conhecimento se transforma em reconhecimento.
+O Voxen não apenas ensina gramática, mas cria um **ecossistema de aprendizado, competição e visibilidade**, onde o conhecimento se transforma em reconhecimento.
