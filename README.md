@@ -1,16 +1,31 @@
-# english_app
+📌 # Cenário da Aplicação – Voxen
 
-A new Flutter project.
+Voxen é um aplicativo educacional que vai além do estudo tradicional de gramática. Ele une aprendizado estruturado com uma gamificação global, transformando o estudo de idiomas em uma experiência envolvente, competitiva e social.
 
-## Getting Started
+Ao realizar a autenticação, o usuário é direcionado para a Home, onde encontra três principais modalidades de gamificação:
 
-This project is a starting point for a Flutter application.
+Eventos – desafios temáticos e globais, com tempo limitado.
 
-A few resources to get you started if this is your first Flutter project:
+Livros de Gramática – exercícios organizados por níveis e conteúdos gramaticais.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Simulados para Certificações – prática direcionada para exames oficiais de proficiência.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cada modalidade leva o usuário a uma interface com frases e questões gramaticais interativas, que devem ser preenchidas corretamente. Após o preenchimento, o botão de validação é habilitado, permitindo a correção automática das respostas e a atribuição de pontos de acordo com o desempenho do usuário.
+
+Além do aprendizado gamificado, o Voxen incentiva a conexão entre usuários. É possível encontrar outros participantes por meio de um ranking mundial ou pela barra de pesquisa, promovendo networking, troca de experiências e interação entre estudantes de diferentes partes do mundo.
+
+O perfil do usuário funciona como um verdadeiro currículo digital, reunindo informações relevantes como:
+
+Pontuação acumulada (Score)
+
+Posição no ranking global
+
+Progresso gramatical
+
+Certificados conquistados
+
+Área “Sobre”
+
+Chat para conversas e conexões
+
+Dessa forma, o Voxen não apenas ensina gramática, mas cria um ecossistema de aprendizado, competição e visibilidade, onde o conhecimento se transforma em reconhecimento.
