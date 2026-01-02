@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      routerConfig: Routefly.routerConfig(routes: routes, initialPath: routePaths.auth.login),
+      routerConfig: Routefly.routerConfig(routes: routes, initialPath: routePaths.home),
     );
   }
 }

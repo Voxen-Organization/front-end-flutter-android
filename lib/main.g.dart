@@ -14,10 +14,22 @@ List<RouteEntity> get routes => [
     routeBuilder: b1Builder,
   ),
   RouteEntity(key: '/home', uri: Uri.parse('/home'), routeBuilder: b2Builder),
+  RouteEntity(
+    key: '/book_details',
+    uri: Uri.parse('/book_details'),
+    routeBuilder: b3Builder,
+  ),
+  RouteEntity(
+    key: '/sentences',
+    uri: Uri.parse('/sentences'),
+    routeBuilder: b4Builder,
+  ),
 ];
 
 const routePaths = (
   path: '/',
   auth: (path: '/auth', login: '/auth/login', register: '/auth/register'),
   home: '/home',
+  bookDetails: '/book_details',
+  sentences: '/sentences',
 );

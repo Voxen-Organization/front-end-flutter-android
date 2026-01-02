@@ -1,4 +1,4 @@
-import 'package:english_app/features/auth/presentation/viewmodel/auth_Viewmodel.dart';
+import 'package:english_app/features/auth/presentation/viewmodel/auth_viewmodel.dart';
 import 'package:english_app/injector.dart';
 import 'package:flutter/material.dart';
 

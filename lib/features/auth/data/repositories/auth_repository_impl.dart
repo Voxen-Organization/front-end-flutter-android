@@ -1,6 +1,6 @@
 import 'package:english_app/core/result/failure.dart';
 import 'package:english_app/core/result/result.dart';
-import 'package:english_app/features/auth/datasources/auth_remote_datasource.dart';
+import 'package:english_app/features/auth/data/datasources/auth_remote_datasource.dart';
 import 'package:english_app/features/auth/domain/entities/params.dart';
 import 'package:english_app/features/auth/domain/entities/user_entity.dart';
 import 'package:english_app/features/auth/domain/repositories/auth_repository.dart';

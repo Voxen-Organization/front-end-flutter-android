@@ -15,7 +15,7 @@ abstract class AuthRemoteDatasource {
 class AuthRemoteDatasourceImpl implements AuthRemoteDatasource {
   final http.Client client;
   final String baseUrl;
-  AuthRemoteDatasourceImpl({required this.client, required this.baseUrl});
+  const AuthRemoteDatasourceImpl({required this.client, required this.baseUrl});
   @override
   Future<String> login(UserParams params) async {
     final url = Uri.parse('$baseUrl/auth/login');
