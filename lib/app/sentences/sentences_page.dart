@@ -1,7 +1,6 @@
 import 'package:english_app/features/home/domain/entities/unit_entity.dart';
-import 'package:english_app/features/sentences/presentation/sentences_view_model.dart';
+import 'package:english_app/features/sentences/presentation/widgets/custom_sentence_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
 
 class SentencesPage extends StatefulWidget {
   const SentencesPage({super.key});
@@ -12,13 +11,6 @@ class SentencesPage extends StatefulWidget {
 
 class _SentencesPageState extends State<SentencesPage> {
 
-  late SentencesViewModel viewModel;
-
-  @override
-  void initState() {
-    super.initState();
-    viewModel = GetIt.I<SentencesViewModel>();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,12 +30,13 @@ class _SentencesPageState extends State<SentencesPage> {
                 ],
               ),
             Expanded(
-              child: ListView.builder(
+              child: ListView.separated(
                 itemCount: unit.sentences.length,
                 itemBuilder: (context, index) {
-                  return ListTile(
-                    title: Text(unit.sentences[index].sentenceText),
-                  );
+                  return CustomSentenceWidget(sentece: unit.sentences[index]);
+                },
+                separatorBuilder: (context, index) {
+                  return const Divider();
                 },
               ),
             ),

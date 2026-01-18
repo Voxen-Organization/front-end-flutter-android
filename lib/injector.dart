@@ -9,8 +9,6 @@ import 'package:english_app/features/home/data/repositories/home_repository_impl
 import 'package:english_app/features/home/domain/commands/get_books_command.dart';
 import 'package:english_app/features/home/domain/repositories/home_repository.dart';
 import 'package:english_app/features/home/presentation/viewmodel/home_viewmodel.dart';
-import 'package:english_app/features/sentences/domain/commands/validate_sentences_command.dart';
-import 'package:english_app/features/sentences/presentation/sentences_view_model.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
@@ -30,9 +28,6 @@ void setupInjector() {
     () => HomeViewModel(getBooksCommand: getIt<GetBooksCommand>()),
   );
 
-  getIt.registerFactory<SentencesViewModel>(
-  () => SentencesViewModel(getIt<ValidateSentencesCommand>()),
-);
 
   // COMMANDS
   getIt.registerLazySingleton<LoginCommand>(
@@ -45,9 +40,6 @@ void setupInjector() {
     () => GetBooksCommand(repository: getIt<HomeRepository>()),
   );
 
-  getIt.registerLazySingleton<ValidateSentencesCommand>(
-    () => ValidateSentencesCommand(),
-  );
 
   // REPOSITORIES
   getIt.registerLazySingleton<AuthRepository>(
